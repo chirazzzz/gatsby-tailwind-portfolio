@@ -19,7 +19,12 @@
   "homepage": "https://github.com/chirazzzz/gatsby-tailwind-portfolio#readme",
   "dependencies": {
     "gatsby": "^4.10.0",
+    "gatsby-plugin-postcss": "^5.10.0",
     "react": "^17.0.2",
     "react-dom": "^17.0.2"
+  },
+  "devDependencies": {
+    "prettier": "^2.6.0",
+    "tailwindcss": "^3.0.23"
   }
 }
