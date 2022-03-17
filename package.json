@@ -1,0 +1,25 @@
+{
+  "name": "gatsby-tailwind-portfolio",
+  "version": "1.0.0",
+  "description": "Personal portfolio using Gatsby and Tailwind",
+  "main": "index.js",
+  "scripts": {
+    "start": "gatsby develop -p 9090 -o",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chirazzzz/gatsby-tailwind-portfolio.git"
+  },
+  "author": "Chirag Mehta",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/chirazzzz/gatsby-tailwind-portfolio/issues"
+  },
+  "homepage": "https://github.com/chirazzzz/gatsby-tailwind-portfolio#readme",
+  "dependencies": {
+    "gatsby": "^4.10.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  }
+}
