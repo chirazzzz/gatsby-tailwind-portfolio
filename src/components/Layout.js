@@ -5,7 +5,7 @@ import Header from './Header'
 const Layout = ({ children }) => {
   return (
     <div
-      className="min-h-full grid"
+      className="min-h-full grid text-slate-800"
       style={{
         gridTemplateRows: 'auto 1fr auto',
       }}
