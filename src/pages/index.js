@@ -1,8 +1,11 @@
 import React from 'react'
+import Layout from '../components/Layout'
 
 const Home = () => {
   return (
-    <div class="bg-blue-300 text-3xl p-4">Chirag's Portfolio</div>
+    <Layout>
+      <main>This is the hero section</main>
+    </Layout>
   )
 }
 

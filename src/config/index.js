@@ -5,7 +5,7 @@ module.exports = {
   siteTitle: "Chirag Designs - Portfolio",
   siteShortTitle: "CM",
   siteDescription:
-    "v2 personal portfolio. Chirag is Front End Developer and based in Birmingham, UK",
+    "v2 personal portfolio. Chirag is a Front End React Developer and based in Birmingham, UK",
   siteLanguage: "en_UK",
   socialMedia: [
     {
