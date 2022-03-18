@@ -1,0 +1,45 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header renders correctly in Jest test 1`] = `
+<header
+  className="flex items-center justify-between px-12 py-6 border-t-4 border-amber-500"
+>
+  <a
+    aria-label="home"
+    href="/"
+  >
+    <h3
+      className="text-4xl font-black"
+    >
+      CM
+      <span
+        className="text-amber-500 font-medium"
+      >
+        .
+      </span>
+    </h3>
+  </a>
+  <nav
+    className="flex items-center"
+  >
+    <a
+      className="text-lg font-bold px-3 py-1 rounded-lg hover:bg-amber-200 hover:text-slate-800 focus:text- duration-200 ease-in-out"
+      href="/#about"
+    >
+      About
+    </a>
+    <a
+      className="text-lg font-bold px-3 py-1 rounded-lg hover:bg-amber-200 hover:text-slate-800 focus:text- duration-200 ease-in-out"
+      href="/#projects"
+    >
+      Projects
+    </a>
+    <a
+      className="text-lg font-bold px-3 py-1 rounded-lg hover:bg-amber-200 hover:text-slate-800 focus:text- duration-200 ease-in-out"
+      href="/#contact"
+    >
+      Contact
+    </a>
+  </nav>
+</header>
+`;
