@@ -16,9 +16,8 @@ const Header = () => {
       <nav className="flex items-center">
         {menu.map(({ name, url }, key) => {
           return (
-            
             <Link
-              className="text-lg font-bold px-3 py-1 rounded-lg hover:bg-amber-200 hover:text-slate-800 focus:text- duration-200 ease-in-out"
+              className="text-lg font-bold px-3 py-1 rounded-lg hover:bg-amber-200 hover:text-slate-800 focus:text-slate-800 duration-200 ease-in-out"
               key={key}
               to={url}
             >

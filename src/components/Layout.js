@@ -1,5 +1,7 @@
 import React from 'react'
-import Header from './Header/Header'
+import Header from './Header'
+import Footer from './Footer'
+import Twitter from './icons'
 // import PropTypes from 'prop-types'
 
 const Layout = ({ children }) => {
@@ -12,7 +14,8 @@ const Layout = ({ children }) => {
     >
       <Header></Header>
       <main>{children}</main>
-      <footer className='h-20 bg-amber-300'>Footer</footer>
+      <Footer></Footer>
+      {/* <footer className='h-20 bg-amber-300'>Footer</footer> */}
     </div>
   )
 }
